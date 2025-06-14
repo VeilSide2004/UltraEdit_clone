@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.links ul {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+  justify-content: end;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+  font-size: 17px;
+}
+
+.container img {
+  height: 54px;
+  width: auto;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+a:hover {
+  color: rgb(189, 186, 186);
+}
+
+.down span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  padding-top: 100px;
+}
+
+
+.main p {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+.button {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.button button {
+  border-radius: 15px;
+  background-color: #008effc4;
+  padding: 20px;
+  color: #ffff;
+  border: none;
+  cursor: pointer;
+}
+
+button a:hover {
+  color: #ffff;
+}
+
+.button button:hover {
+  background-color: #95b1da;
+}
+
+.download_links {
+  display: grid;
+  grid-template-areas: "nav nav nav";
+}
+
+.download_links h3 {
+  text-align: center;
+  padding: 30px;
+}
+
+.main_content {
+  /* background-color: aqua; */
+  margin: 0 248px;
+}
+
+.download {
+  /* background-color: aqua; */
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 50rem;
+  margin: 56px 171px;
+}
+
+.download img {
+  width: 50px;
+  padding-right: 20px;
+}
+
+.download .big {
+  font-size: 20px;
+}
+
+.download .small {
+  font-size: 12px;
+}
+
+.grid .card {
+  height: 155px;
+  width: 235px;
+  /* border: 2px solid black; */
+  background: #f9f9f9;
+  border-radius: 10px;
+}
+
+.card:hover {
+  background: rgb(221, 240, 248);
+  transition: 1s;
+}
+
+.card .English {
+  text-align: center;
+  padding: 20px 30px;
+  font-weight: 700;
+}
+
+.card .content_button {
+  text-align: center;
+  padding: 30px 0px;
+}
+
+.content_button .btn {
+  padding: 7px;
+  background: #5cb85c;
+  color: #ffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #adf9ad;
+  transition: 0.2s;
+}
+
+.grid {
+  /* background: cyan; */
+  margin: 0 144px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 12px;
+}
